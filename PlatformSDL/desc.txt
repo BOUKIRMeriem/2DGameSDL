@@ -1,0 +1,24 @@
+
+Vec: Vec2 - a data structure x,y   2d dimension
+Util: store global variables
+SpriteSheet: is an image that consists of several smaller images (sprites) and/or animations
+
+Game:  A game loop runs continuously during gameplay. 
+Each turn of the loop, it processes user input without blocking, updates the game state, and renders the game
+
+gameobject: GameObjects are the fundamental objects that represent characters, props,....
+Player : gameobject Player
+Key : gameobject Key
+Wall: gameobject Wall
+BackGround: gameobject background
+
+
+
+level : level contains all gameObjects
+
+level1: contains all gameObjects of level 1
+level2: contains all gameObjects of level 2
+level3: contains all gameObjects of level 3
+
+
+
